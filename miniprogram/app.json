@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/upload/upload",
     "pages/ai/index",
     "pages/ai/camera/camera",
     "pages/ai/search",
@@ -9,19 +10,24 @@
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#00cc77",
-    "navigationBarTitleText": "智能垃圾分类",
+    "navigationBarBackgroundColor": "#012345",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "list": [
+      {
+        "pagePath": "pages/upload/upload",
+        "text": "拍照上传",
+        "iconPath": "images/search_defaut.png",
+        "selectedIconPath": "images/search_select.png"
+      },
       {
         "pagePath": "pages/ai/index",
         "text": "搜索",
         "iconPath": "images/search_defaut.png",
         "selectedIconPath": "images/search_select.png"
       },
-
       {
         "pagePath": "pages/sort/sort",
         "text": "分类",

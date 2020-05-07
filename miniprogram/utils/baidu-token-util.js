@@ -10,7 +10,7 @@ const getBdAiAccessToken = function () {
         console.log("token生成天数timeNum:" + timeNum);
         var accessToken = wx.getStorageSync("access_token")
         console.log("缓存中的accessToken===" + accessToken)
-        if (timeNum > -1 || (accessToken == "" ||
+        if (timeNum > 28 || (accessToken == "" ||
             accessToken == null || accessToken == undefined)) {
             //token超过28天或者不存在，则调用云函数重新获取
             wx.cloud.callFunction({

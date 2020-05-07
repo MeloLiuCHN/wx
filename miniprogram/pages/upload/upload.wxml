@@ -1,0 +1,1 @@
+<button bindtap='uploadPhoto'>拍照选取照片上传</button>
